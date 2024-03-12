@@ -5,8 +5,8 @@ import time
 import requests
 
 
-key = "************"
-steamid = "************"
+key = "D6090CCA9D2AAF7760285F1049769751"
+steamid = "76561198159241291"
 
 
 def get_steam_data(key, steamid):
@@ -86,4 +86,5 @@ def main(file):
 
 
 if __name__ == "__main__":
+    os.system("pip3 freeze > requirements.txt")
     main("source/_data/games.yml")
